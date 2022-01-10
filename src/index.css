@@ -1,0 +1,16 @@
+.app {
+  height: 100vh;
+  background-color: #1A1B1C;
+}
+
+.h100 {
+  min-height: 100% !important;
+}
+
+.onix-gray  {
+  color: #393B3F;
+}
+
+.soft-gray {
+  color: #BEC2C9;
+}

@@ -1,0 +1,44 @@
+.header-wrapper {
+    height: 214px;
+    background-color: #101011;
+}
+
+.header-container {
+    height: 100%;
+}
+
+.header-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .name {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-img {
+    width: 64px;
+    height: 64px;
+}
+
+.profile-img img {
+    border-radius: 20px;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 218px;
+}

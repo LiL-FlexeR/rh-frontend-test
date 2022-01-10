@@ -1,0 +1,117 @@
+.form-container {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.p-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form-container > .s-input-container {}
+
+input {
+    border-bottom: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+    margin: 0!important;
+    color: #999CA0;
+}
+
+.form-container .s-input,
+.form-container .s-input:focus
+{
+    border-radius: 5px;
+    background-color: #393B3F;
+    padding: 0 1rem;
+    max-width: calc(340px - 2rem);
+}
+
+.form-container .s-input::placeholder {
+    font-size: 16px;
+    color: #999CA0;
+}
+
+.form-container .s-input-label {
+    color: #BEC2C9;
+}
+
+.form-container .credit-card {
+    display: flex;
+    background-color: #393B3F;
+    width: 312px;
+    padding: 0 .5rem;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.form-container .payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credit-card .card-number {
+    width: 150px;
+    padding: calc(0.25em - 2px) 0;
+    padding-left: .5rem;
+}
+
+.credit-card .date {
+    width: 75px;
+}
+
+.credit-card .card-cvc {
+    width: 50px;
+}
+
+.credit-icon {
+    color: #999CA0;
+}
+
+.payment-checkbox {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    opacity: 1;
+    pointer-events: unset;
+    border-radius: 100px;
+    border: 1px solid #393B3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 0;
+}
+
+.payment-checkbox-checked {
+    background-color: #4CC9F0;
+    width: 14px;
+    height: 14px;
+    border-radius: 100px;
+}
+
+.payment-paypal {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-paypal .content {
+    width: 307px;
+    color: #999CA0;
+}
+
+.content > p {
+    margin: 0;
+    margin-top: .25rem;
+}
+
+.policy {
+    color: #999CA0;
+}
+
+.policy .lighten {
+    color: #c4c4c4;
+    font-size: 12px;
+}
